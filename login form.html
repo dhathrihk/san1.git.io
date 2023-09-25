@@ -1,0 +1,30 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style 1.css">
+    <title>Login and Registration</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container login">
+            <h2>Login</h2>
+            <form action="login.php" method="POST">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div class="form-container register">
+            <h2>Register</h2>
+            <form action="register.php" method="POST">
+                <label for="newUsername">New Username</label>
+                <input type="text" id="newUsername" name="newUsername" required>
+                <label for="newPassword">New Password</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
